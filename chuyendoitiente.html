@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài chuyển đổi tiền tệ</title>
+
+</head>
+<style>
+    th,td{
+        text-align: center;
+        margin: auto;
+    }
+</style>
+<body>
+    <form>
+        <table style="width: 600px">
+            <tr>
+                <th>Amount</th>
+                <th>From Currency</th>
+                <th>To Currency</th>
+            </tr>
+            <tr>
+                <td><input type="text" id="amount" value=""></td>
+                <td><select id="fromcurrency">
+                    <option value="23000">VND</option>
+                    <option value="1">USD</option>
+                </select>
+                </td>
+                <td><select id="tocurrency">
+                    <option value="23000">VND</option>
+                    <option value="1">USD</option>
+                </select>
+                </td>
+                <td><input type="button" value="Submit" onclick="ketqua()"></td>
+            </tr>
+        </table>
+        <p id = "abc"></p>
+    </form>
+    <script>
+        function ketqua() {
+            let x = document.getElementById('amount').value
+            let y = document.getElementById('fromcurrency').value
+            let z = document.getElementById('tocurrency').value
+                 x = parseInt(x)
+                 y = parseInt(y)
+                 z = parseInt(z)
+            document.getElementById('abc').innerHTML = x*z/y;
+        }
+    </script>
+</body>
+</html>

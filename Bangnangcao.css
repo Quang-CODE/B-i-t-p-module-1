@@ -1,0 +1,12 @@
+table{
+    height: 600px;
+    width: 600px;
+    background-color: goldenrod;
+    border: black;
+}
+.den{
+    background-color: black;
+}
+.trang{
+    background-color: white;
+}

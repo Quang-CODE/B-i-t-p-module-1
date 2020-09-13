@@ -1,0 +1,24 @@
+table{
+    width: 600px;
+    border-collapse: collapse;
+
+}
+.phantren{
+    font-family: Candara;
+    color: blue;
+}
+th{
+    text-align: center;
+}
+#bang1,#bang2,#bang3{
+    border: solid black;
+}
+td{
+    padding-left: 10px;
+}
+#bang2{
+    background-color: yellow;
+}
+#bang3{
+    background-color: goldenrod;
+}

@@ -1,0 +1,45 @@
+.phantren,.phanduoi{
+    width: 1000px;
+    margin: auto;
+}
+.phanduoi{
+    margin: auto;
+    border-collapse: collapse;
+}
+.aaa1,.aaa2,.a{
+    border: ridge;
+    text-align: center;
+
+}
+#abcd{
+    border-collapse: collapse;
+
+}
+.a{
+    border: ridge;
+}
+.aaa1{
+    color: red;
+    border-collapse: collapse;
+}
+.aaa2{
+    color: blue;
+}
+table{
+    width: 600px;
+
+}
+.bbb{
+    text-align: center;
+}
+.aaa{
+    color: white;
+    background-color: limegreen;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+table{
+    margin: auto;
+}

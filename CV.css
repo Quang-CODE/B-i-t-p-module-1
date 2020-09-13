@@ -1,0 +1,60 @@
+.header {
+    height: 200px;
+    width: auto;
+    font-size: 20px;
+    font-family: Candara;
+    text-align: center;
+}
+.ảnh{
+    height: 100%;
+    width: 30%;
+    float: left;
+    border: solid;
+}
+.info{
+    height: 100%;
+    width: 69%;
+    border: black;
+    float: left;
+    text-align: -moz-center;
+    border: solid;
+
+
+
+}
+.body{
+    height: 400px;
+    width: auto;
+    font-family: Candara;
+    font-size: 40px;
+    margin: auto;
+    text-align: -webkit-left;
+
+}
+.trai{
+    height: 400px;
+    width: 30%;
+    float: left;
+    border: solid;
+
+}
+.phai{
+    height: 400px;
+    width: 69%;
+    float: left;
+    border: solid;
+    font-size: 20px;
+    text-align: left;
+}
+.tren{
+    height: 200px;
+    width: auto;
+    text-align: center;
+
+}
+.duoi{
+    height: 200px;
+    width: auto;
+    text-align: center;
+
+}

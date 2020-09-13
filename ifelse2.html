@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ifelse2</title>
+</head>
+<body>
+    <script>
+        let MK = prompt("Nhập mật khẩu của bạn", '')
+            if (MK == "Admin") {
+                let password = prompt("Nhập password của bạn", '')
+                if (password == "TheMaster") {
+                    document.write("Welcome!!!");
+                } else if (password == null) {
+                    alert('canceled');
+                } else {
+                    document.write("wrong password");
+                }
+            }
+            else
+                {
+                    if (MK == null) {
+                        document.write('canceled');
+                    } else {
+                        document.write("i don't know you");
+                    }
+                }
+    </script>
+
+</body>
+</html>
